@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme2"
+    tools:context=".Main2Activity">
+
+    <include
+        android:id="@+id/tbAction2"
+        layout="@layout/actionbar2"></include>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMascotasFavoritas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margeBCardview"
+        android:layout_below="@+id/tbAction2">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
